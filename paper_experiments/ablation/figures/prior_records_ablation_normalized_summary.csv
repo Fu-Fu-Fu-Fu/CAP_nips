@@ -1,0 +1,17 @@
+task,source,surrogate,cap_normalized_mean_over_scales
+Hartmann-6D,default BO,GP,0.01977367
+Hartmann-6D,default BO,TabPFN,0.03314069
+Hartmann-6D,random,GP,0.22981363
+Hartmann-6D,random,TabPFN,0.24682070
+Hartmann-6D,DOE static,GP,0.44790239
+Hartmann-6D,DOE static,TabPFN,0.41575403
+Hartmann-6D,DOE seq-local,GP,0.02797502
+Hartmann-6D,DOE seq-local,TabPFN,0.03781997
+Alkox,default BO,GP,0.11818474
+Alkox,default BO,TabPFN,0.07850455
+Alkox,random,GP,0.28318273
+Alkox,random,TabPFN,0.38019661
+Alkox,DOE static,GP,0.13633385
+Alkox,DOE static,TabPFN,0.13854460
+Alkox,DOE seq-local,GP,0.20294316
+Alkox,DOE seq-local,TabPFN,0.23913258

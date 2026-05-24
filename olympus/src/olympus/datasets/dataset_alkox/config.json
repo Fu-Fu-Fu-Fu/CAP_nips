@@ -1,0 +1,17 @@
+{
+	"constraints": {
+		"parameters":   "none",
+		"measurements": "positive",
+		"known": "no"
+		},
+	"parameters": [
+			{"name": "catalase", "type": "continuous", "low": 0.05, "high": 1.0},
+			{"name": "peroxidase", "type": "continuous", "low": 0.5, "high": 10.0},
+			{"name": "alcohol_oxidase", "type": "continuous", "low": 2.0, "high": 8.0},
+			{"name": "ph",  "type": "continuous",  "low": 6.0, "high": 8.0}
+		],
+    "measurements": [
+			{"name": "conversion", "type": "continuous"}
+		],
+    "default_goal": "maximize"
+}

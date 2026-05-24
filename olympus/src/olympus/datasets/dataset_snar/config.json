@@ -1,0 +1,17 @@
+{
+	"constraints": {
+			"parameters": "none",
+			"measurements": "positive",
+			"known": "no"
+		},
+	"parameters": [
+			{"name": "residence_time", "type": "continuous", "low": 0.5,  "high": 2.0},
+			{"name": "ratio", "type": "continuous", "low": 1.0,  "high": 5.0},
+			{"name": "concentration", "type": "continuous",  "low": 0.1,  "high": 0.5},
+			{"name": "temperature", "type": "continuous", "low": 60.0, "high": 140.0}
+		],
+	"measurements": [
+		{"name": "impurity", "type": "continuous"}
+	],
+    "default_goal": "minimize"
+}

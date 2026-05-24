@@ -1,0 +1,37 @@
+{
+  "task": "hartmann_6d_family",
+  "rl_model_path": "paper_experiments/hartmann6d/models/default/ppo_best.pt",
+  "taf_data_path": "./data/taf_source_data_hartmann_6d_family_k10.pkl",
+  "surrogate": "gp",
+  "scales": [
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0
+  ],
+  "n_variants": 20,
+  "n_runs": 3,
+  "max_steps": 48,
+  "n_init": 2,
+  "n_persistent_base": 128,
+  "n_total_candidates": 256,
+  "k_centers": 3,
+  "local_h": 0.15,
+  "local_h_decay": 0.95,
+  "explore_fraction": 0.0,
+  "seed": 2026,
+  "save_dir": "paper_experiments/ablation/wo_rl/hartmann6d/results_gp",
+  "methods": [
+    "Random",
+    "EI",
+    "UCB",
+    "PI",
+    "TAF_ranking",
+    "CAP-PPO"
+  ],
+  "device": "cpu",
+  "n_workers": 4
+}

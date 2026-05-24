@@ -1,0 +1,29 @@
+.agents/
+.codex
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.matplotlib/
+.ipynb_checkpoints/
+
+logs/
+tensorboard/
+_resume/
+replot/
+plot_json_replot/
+replot_no_outliers/
+
+core
+core.*
+*.log
+
+# Intermediate PPO checkpoints are intentionally excluded. Final/best paper
+# checkpoints are kept in paper_experiments and should be tracked with Git LFS.
+ppo_ep*.pt
+
+# Local cleanup backups live outside the repo, but keep accidental copies out.
+*_cleanup_backup_*/
